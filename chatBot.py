@@ -92,7 +92,8 @@ class TourBot:
             self.retrival_chain,
             lambda: self.history,
             input_messages_key="input",
-            history_messages_key="chat_history"
+            history_messages_key="chat_history",
+            output_messages_key='answer'
         )
     
     def return_response(self, query):
