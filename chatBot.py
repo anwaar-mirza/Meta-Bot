@@ -11,9 +11,9 @@ import streamlit as st
 from dotenv import load_dotenv
 import os
 load_dotenv()
-os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
-os.environ['PINECONE_API_KEY'] = os.getenv("PINECONE_API_KEY")
-os.environ['OPENAI_API_KEY'] = os.getenv("OPENAI_API_KEY")
+os.environ["GROQ_API_KEY"] = st.secrets['GROQ_API_KEY']
+os.environ['PINECONE_API_KEY'] = st.secrets['PINECONE_API_KEY']
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 
 prompt_templete = """
