@@ -1,0 +1,9 @@
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-groq
+langchain-pinecone
+pinecone-client
+streamlit
+python-dotenv
