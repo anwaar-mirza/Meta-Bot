@@ -32,6 +32,7 @@ prompt_templete = """
     <step>Manipulate the retrieved data into a natural, easy-to-read format.</step>
     <step>Always provide accurate, fact-based information.</step>
     <step>If no relevant data is found, apologize and let the user know politely.</step>
+    <step>If the user message is not related to metaviz, just say I'm only provide information about metaviz.</step>
   </instructions>
   <Style>
     <tone>Conversational</tone>
