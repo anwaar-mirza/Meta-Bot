@@ -4,6 +4,6 @@ langchain-community
 langchain-openai
 langchain-groq
 langchain-pinecone
-pinecone-client
+pinecone
 streamlit
 python-dotenv
